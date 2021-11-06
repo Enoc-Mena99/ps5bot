@@ -7,6 +7,7 @@ specific URL. If there are ps5's in stock the computer will make a beeping sound
 Notes: Start chromedriver in Terminal before starting this bot.
 Make sure you are logged into your BestBuy account as this bot works better if you are
 logged into your BestBuy account.
+
 """
 
 import time
@@ -23,7 +24,7 @@ options = Options()
 options.add_argument('--disable-blink-features=AutomationControlled')
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
-chromedriver_path = "/Users/enocschool/Downloads/chromedriver"
+chromedriver_path = "your path here"
 c_driver = webdriver.Chrome(options=options, executable_path=chromedriver_path)
 c_driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
