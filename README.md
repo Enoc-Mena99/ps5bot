@@ -1,3 +1,6 @@
+![HQSoftwareLogo](https://user-images.githubusercontent.com/92764070/140683907-92f434b3-66d7-45d6-8379-e7d18fb4a752.png)
+
+
 # ps5bot
 ps5 bot that checks BestBuy stock and alerts the user if the ps5 is in stock. The bot then proceeds to checkout and take the user to the order screen.
 
@@ -22,3 +25,8 @@ The user will then be shown the following screen where they will be asked to put
 
 
 Enjoy your PS5!!!!
+
+# Developer:
+HQSoftware
+
+Email: HQSoftwareInc@gmail.com
